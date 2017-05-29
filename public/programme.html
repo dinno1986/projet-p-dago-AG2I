@@ -2,21 +2,19 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="node_modules/materialize-css/dist/css/materialize.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
 	<title>Programme de la journée</title>
 </head>
-<body>
-	<div class="container">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="node_modules/materialize-css/dist/css/materialize.min.css">
-		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="style.css">
+<body class="light-green lighten-4">
 
-		<nav>
+		<nav class="teal darken-2">
 			<div class="nav-wrapper">
 				<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>					
-				<ul class="right hide-on-med-and-down">
+				<ul class="hide-on-med-and-down">
 					<li><a href="accueil.html">Page d'accueil</a></li>		
 					<li><a href="evenement.html">L'évenement</a></li>
 					<li class="active"><a href="programme.html">Programme</a></li>
@@ -25,16 +23,22 @@
 					<li><a href="Vosavis.html">Vos avis</a></li>
 				</ul>			
 				    <ul class="side-nav" id="mobile-demo">
-			    	<li class="active"><a href="accueil.html">Page d'accueil</a></li>
+			    	<li><a href="accueil.html">Page d'accueil</a></li>
+			    	<li><div class="divider"></div></li>
 			        <li><a href="evenement.html">L'évènement</a></li>
+			        <li><div class="divider"></div></li>
 			        <li class="active"><a href="programme.html">Programme</a></li>
+			        <li><div class="divider"></div></li>
 			        <li><a href="partenaire.html">Partenaires</a></li>
+			        <li><div class="divider"></div></li>
 			        <li><a href="infos-pratiques.html">Infos Pratiques</a></li>
+			        <li><div class="divider"></div></li>
 			        <li><a href="Vosavis.html">Vos avis</a></li>
 			    </ul>					
 			</div>				
 		</nav>
 	
+	<div class="container white">
 		<h1>PROGRAMME</h1>
 		<ul>
 			<li>9h00-9h30: Acceuil des participants</li>
