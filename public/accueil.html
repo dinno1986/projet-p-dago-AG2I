@@ -2,38 +2,64 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="node_modules/materialize-css/dist/css/materialize.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
 	<title>Accueil</title>
 </head>
 <body>
-	<div class="container">
-		<div class="masthead">
-			<h3 class="text-muted">Évenement AG2I</h3>	
+	<div >
+		
+	</div>
 			<nav>
-				<ul class="nav nav-justified">
-					<li class="active"><a href="accueil.html">Page d'accueil</a></li>		
-					<li><a href="evenement.html">L'évenement</a></li>
-					<li><a href="programme.html">Programme</a></li>
-					<li><a href="partenaire.html">Partenaires</a></li>
-					<li><a href="infos-pratiques.html">Infos Pratiques</a></li>
-					<li><a href="Vosavis.html">Vos avis</a></li>			
-				</ul>					
+				<div class="nav-wrapper">
+					<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>					
+					<ul class="right hide-on-med-and-down">
+						<li class="active"><a href="accueil.html">Page d'accueil</a></li>		
+						<li><a href="evenement.html">L'évenement</a></li>
+						<li><a href="programme.html">Programme</a></li>
+						<li><a href="partenaire.html">Partenaires</a></li>
+						<li><a href="infos-pratiques.html">Infos Pratiques</a></li>
+						<li><a href="Vosavis.html">Vos avis</a></li>
+					</ul>			
+  				    <ul class="side-nav" id="mobile-demo">
+				    	<li class="active"><a href="accueil.html">Page d'accueil</a></li>
+				        <li><a href="evenement.html">L'évènement</a></li>
+				        <li><a href="programme.html">Programme</a></li>
+				        <li><a href="partenaire.html">Partenaires</a></li>
+				        <li><a href="infos-pratiques.html">Infos Pratiques</a></li>
+				        <li><a href="Vosavis.html">Vos avis</a></li>
+				    </ul>					
+				</div>				
 			</nav>
 		</div>
 		<ul>
 			<li>logo de l'évènement</li>
 			<li>date, endroit et horaire de l'évènement</li>
+			<li><em>Le 28 Septembre 2017, au Halle Eloi Castaing Avenue Paul Valéry 32500 Fleurance, de 9h à 16h30</em></li>
 			<li>texte d'introduction de l'évènement</li>
 			<li>objectifs de l'évènement</li>
+			<li>
+				<em>
+					<h4>Les objectifs de l'évènement</h4>
+					<ul>
+						<li>Échanger des connaissances ou partager des expériences</li>
+						<li>Créer des contacts avec des clients ou partenaires</li>
+						<li>Motiver/remercier</li>
+						<li>Favoriser le réseautage</li>
+					</ul>
+				</em>
+			</li>
 		</ul>
 
 		<footer>
 			
 		</footer>
-	</div>
-	
-	<script type="text/javascript" src="node_modules/jquery.min.js"></script>
-	<script type="text/javascript" src="node_modules/bootstrap.min.js"></script>
+
+	<script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="node_modules/materialize-css/dist/js/materialize.min.js"></script>
 	<script type="text/javascript" src="js/app.js"></script>
 </body>
 </html>

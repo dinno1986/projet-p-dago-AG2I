@@ -3,27 +3,36 @@
 <head>
 	<meta charset="utf-8">
 	<title></title>
-	<script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
-	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="node_modules/materialize-css/dist/css/materialize.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
 
 </head>
 <body class="test">
 	<div class="container">
-		<div class="masthead">
-			<h3 class="text-muted">Partenaires</h3>	
-			<nav>
-				<ul class="nav nav-justified">
-					<li class="active"><a href="accueil.html">Page d'accueil</a></li>		
+		<nav>
+			<div class="nav-wrapper">
+				<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>					
+				<ul class="right hide-on-med-and-down">
+					<li><a href="accueil.html">Page d'accueil</a></li>		
 					<li><a href="evenement.html">L'évenement</a></li>
 					<li><a href="programme.html">Programme</a></li>
-					<li><a href="partenaire.html">Partenaires</a></li>
+					<li class="active"><a href="partenaire.html">Partenaires</a></li>
 					<li><a href="infos-pratiques.html">Infos Pratiques</a></li>
-					<li><a href="Vosavis.html">Vos avis</a></li>			
-				</ul>					
-			</nav>
-		</div>
+					<li><a href="Vosavis.html">Vos avis</a></li>
+				</ul>			
+				    <ul class="side-nav" id="mobile-demo">
+			    	<li class="active"><a href="accueil.html">Page d'accueil</a></li>
+			        <li><a href="evenement.html">L'évènement</a></li>
+			        <li><a href="programme.html">Programme</a></li>
+			        <li class="active"><a href="partenaire.html">Partenaires</a></li>
+			        <li><a href="infos-pratiques.html">Infos Pratiques</a></li>
+			        <li><a href="Vosavis.html">Vos avis</a></li>
+			    </ul>					
+			</div>				
+		</nav>
 
 		<div class="divider"></div>
   		<div class="section">
@@ -77,11 +86,13 @@
 		
 	</div>
 </div>
-<footer class="footer">
-      <div class="container">
-        <p class="text-muted">Réseau sociaux</p>
-      </div>
+	<footer class="footer">
+      	<div class="container">
+        	<p class="text-muted">Réseau sociaux</p>
+      	</div>
     </footer>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+    <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="node_modules/materialize-css/dist/js/materialize.min.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
 </body>
 </html>
