@@ -1,3 +1,3 @@
 $(".button-collapse").sideNav();
 
- $('.parallax').parallax();
+$('.parallax').parallax();
