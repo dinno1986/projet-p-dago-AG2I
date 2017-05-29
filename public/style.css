@@ -1,1 +1,32 @@
-body { padding-top: 70px; }
+body { 
+	padding-top: 0px;
+	
+	 }
+
+footer img{
+	
+	position: relative; ;
+	float: right;
+	bottom: 55px;
+	margin: 5px;
+	size: 40px;
+	width: 40px;
+	left: 300px;
+
+}
+
+.page-footer{
+	height: 70px;
+	overflow: hidden;
+
+
+
+}
+.texte{
+	text-align: center;
+	display: table-cell;
+  	vertical-align: middle;
+
+}
+
+

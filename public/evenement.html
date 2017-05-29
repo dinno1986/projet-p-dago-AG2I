@@ -3,27 +3,34 @@
 <head>
 	<title>Page Evenements</title>
 		<meta charset="UTF-8">
-	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+	    <link type="text/css" rel="stylesheet" href="node_modules/materialize-css/dist/css/materialize.min.css"  media="screen,projection"/>
+	    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 		<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 	
-	<nav class="navbar navbar-default navbar-fixed-top">
-  		<div class="container">
-   		 <ul class="nav nav-justified">
-    		<li><a href="accueil.html">Page d'accueil</a></li>
-    		<li><a href="evenement.html">Evènement</a></li>
-    		<li><a href="partenaire.html">Partenaires</a></li>
-    		<li><a href="infos-pratiques.html">Infos Pratiques</a></li>
-    		<li><a href="Vosavis.html">Vos Avis</a></li>
-   		 </ul>
- 		</div>
-	</nav>
+	<nav>
+    <div class="nav-wrapper">
+      <a href="#!" class="brand-logo">Logo</a>
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="accueil.html">Accueil</a></li>
+        <li><a href="badges.html">Components</a></li>
+        <li><a href="collapsible.html">Javascript</a></li>
+        <li><a href="mobile.html">Mobile</a></li>
+      </ul>
+      <ul class="side-nav" id="mobile-demo">
+        <li><a href="sass.html">Sass</a></li>
+        <li><a href="badges.html">Components</a></li>
+        <li><a href="collapsible.html">Javascript</a></li>
+        <li><a href="mobile.html">Mobile</a></li>
+      </ul>
+    </div>
+  </nav>
 
 
-<div class = "intro">
+<div class="intro">
 	<h3>Présentation de l'évènement</h3>
 	<p>
 		L'association AG2I (Ateliers Gersois d'Insertion et d'Innovation) en partenariat avec la CRESS (la Chambre Régionale de l'Economie Sociale et Solidaire) l'ADEME (l'Agence de l'Environnement et de la maîtrise de l'énergie), Ordi 3.0 et Solidarités Numériques organisent la première rencontre régionale des acteurs du réemploi d'équipement électriques et électroniques offrant la posibilité de : 
@@ -132,8 +139,48 @@
 
 	</p>
 
+	<footer class="page-footer card-panel teal lighten-2">
+        
+          <div class="container">
+            <div class="row">
+              <div class=" offset-l3 col l6 s6">
+                <h5 class="white-text texte">Réseaux sociaux : </h5>
+                
+              </div>
+              <div class="col l4 s12">
+            
+                <ul>
+                  <li><a class="grey-text text-lighten-3" id="facebook" href="https://fr-fr.facebook.com/ag2ir2d2/">
+                  	<img src="http://icon-icons.com/icons2/642/PNG/512/facebook_icon-icons.com_59205.png" alt="facebook"/>
+                  </a></li>
+                  <li><a class="grey-text text-lighten-3" id="twitter" href="https://twitter.com/?lang=fr">
+                  	<img src="https://s-media-cache-ak0.pinimg.com/originals/79/c7/dd/79c7dd35aa69a0dfa837e70d265a9ef4.png" alt="twitter"/>
+                  </a></li>
+                  <li><a class="grey-text text-lighten-3" id ="mail" href="ag2i2@wanadoo.fr">
+                  <img src="http://res.cloudinary.com/hrscywv4p/image/upload/c_limit,f_auto,h_1440,q_80,w_720/v1/198783/PILI_logo_mail_2_kacgpu.png"/>
+                  </a></li>
+                  
+                </ul>
+               </div>
+            </div>
+          </div>
+
+          
+    </footer>
+
+	<!--<footer>
+		<a href="https://fr-fr.facebook.com/ag2ir2d2/">
+				<img src="http://www.streetinsider.com/images/news2/106/10626622/resize_FB%20logoMatte.jpg" alt="facebook"/>
+			</a>
+			
+			<a href="https://twitter.com">
+				<img src="https://blog.groupe-soledis.com/wp-content/uploads/2016/06/twitter.jpg" alt="twitter"/>
+			</a>
+	</footer> -->
 
 
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="node_modules/materialize-css/dist/js/materialize.min.js"></script>
 
 </body>
 </html>
