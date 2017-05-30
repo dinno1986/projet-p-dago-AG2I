@@ -1,7 +1,12 @@
 
 body { 
 	padding-top: 0px;
+
 	border-radius: 50px;
+
+	font-family: cursive;
+	
+
 	 }
 
 footer img{
@@ -23,5 +28,12 @@ footer img{
 
 .bordure {
 	margin: auto;
+
+}
+
+.paragraphe{
+	border-radius: 4em 4em 4em 4em;
+	text-align: center;
+
 }
 
