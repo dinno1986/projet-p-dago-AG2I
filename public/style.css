@@ -8,27 +8,20 @@ footer img{
 	
 	position: relative; ;
 	float: right;
-	bottom: 55px;
-	margin: 5px;
-	size: 40px;
-	width: 40px;
-	left: 400px;
+	bottom: 2.25em;
+	margin: 0.5em;
+	size: 4em;
+	width: 2.5em;
+	right: 1em;
 
 }
 
 .page-footer{
-	height: 70px;
+	height: 50px;
 	overflow: hidden;
-
-
-
-}
-.texte{
-	text-align: center;
-	display: table-cell;
-  	vertical-align: middle;
-
 }
 
-
+.bordure {
+	margin: auto;
+}
 
