@@ -3,6 +3,7 @@ body {
 	padding-top: 0px;
 	border-radius: 50px;
 	font-family: 'Slabo 27px';
+	text-align: center;
 }
 
 footer img{
@@ -43,6 +44,7 @@ footer img{
 
 /* .localisation{
 	top: 40px;
+
 } */
 
 #programme, .card-title{
@@ -51,4 +53,33 @@ footer img{
 
 #programme{
 	background-image:url("william5893.jpg")
+
 }
+
+
+#carre {
+    height: 300px;
+    width: 300px;
+   	border:1px dotted black;
+   	margin: auto;
+}
+
+#ern {
+	margin-bottom: 5%;
+	margin-left: 10%;
+}
+
+#ademe {
+	margin-right: 5%;
+}
+
+#enedis {
+	margin-right: 5%;
+}
+
+#solidarite {
+	margin-right: 5%;
+}
+
+#cress {
+	margin-right: 5%;
