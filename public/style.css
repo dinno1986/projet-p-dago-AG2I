@@ -47,10 +47,6 @@ footer img{
 }
 
 
-
-
-
-
 #carre {
     height: 300px;
     width: 300px;
@@ -58,3 +54,23 @@ footer img{
    	margin: auto;
 }
 
+#ern {
+	margin-bottom: 5%;
+	margin-left: 10%;
+}
+
+#ademe {
+	margin-right: 5%;
+}
+
+#enedis {
+	margin-right: 5%;
+}
+
+#solidarite {
+	margin-right: 5%;
+}
+
+#cress {
+	margin-right: 5%;
+}
