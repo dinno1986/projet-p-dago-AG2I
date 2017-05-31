@@ -44,4 +44,10 @@ footer img{
 	top: 40px;
 } 
 
+#carre {
+    height: 300px;
+    width: 300px;
+   	border:1px dotted black;
+   	margin: auto;
+}
 
