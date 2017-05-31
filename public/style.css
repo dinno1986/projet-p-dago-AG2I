@@ -1,9 +1,8 @@
 
 body { 
 	padding-top: 0px;
-	font-family: 'Slabo 27px', serif;
-	
-	 }
+	border-radius: 50px;
+}
 
 footer img{
 	
@@ -24,13 +23,17 @@ footer img{
 
 .bordure {
 	margin: auto;
+
 }
 
 .paragraphe{
 	border-radius: 4em 4em 4em 4em;
 	text-align: center;
+
+
 }
 
 .localisation{
 	top: 40px;
 } 
+
