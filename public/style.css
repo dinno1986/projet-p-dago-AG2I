@@ -3,7 +3,7 @@ body {
 	padding-top: 0px;
 	border-radius: 50px;
 	font-family: 'Slabo 27px';
-	text-align: center;
+	
 }
 
 footer img{
@@ -35,6 +35,10 @@ footer img{
 
 }
 
+nav{
+	font-family:'Orbitron';
+}
+
 
 #prog{
 	display: block;
@@ -62,6 +66,7 @@ footer img{
     width: 300px;
    	border:1px dotted black;
    	margin: auto;
+   	margin-top: 10px;
 }
 
 #ern {
@@ -83,3 +88,14 @@ footer img{
 
 #cress {
 	margin-right: 5%;
+}
+
+p {
+	margin-left: 50px;
+	line-height:30px;
+}
+
+
+h3 {
+	font-family: fantasy;
+}
