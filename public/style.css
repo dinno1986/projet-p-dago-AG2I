@@ -34,6 +34,13 @@ footer img{
 
 }
 
+
+#prog{
+	display: block;
+	margin: auto;
+}
+
+
 .localisation{
 	top: 40px;
 } 
