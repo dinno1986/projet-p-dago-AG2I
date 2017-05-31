@@ -41,8 +41,14 @@ footer img{
 }
 
 
-.localisation{
+/* .localisation{
 	top: 40px;
-} 
+} */
 
+#programme, .card-title{
+	color: #ffd54f;
+}
 
+#programme{
+	background-image:url("william5893.jpg")
+}
