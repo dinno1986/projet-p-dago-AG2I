@@ -1,13 +1,8 @@
 
 body { 
 	padding-top: 0px;
-
 	border-radius: 50px;
-
-	font-family: cursive;
-	
-
-	 }
+}
 
 footer img{
 	
@@ -35,10 +30,18 @@ footer img{
 	border-radius: 4em 4em 4em 4em;
 	text-align: center;
 
+
 }
+
 
 #prog{
 	display: block;
 	margin: auto;
 }
+
+
+.localisation{
+	top: 40px;
+} 
+
 
