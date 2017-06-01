@@ -63,6 +63,11 @@ h3{
 	color: #0d47a1;
 }
 
+h4{
+	font-family:'Orbitron';
+	color:#2196f3;
+}
+
 
 #carre {
     height: 300px;
@@ -107,4 +112,6 @@ p {
 
 }
 
-
+.fa{
+	color: #42a5f5;
+}
