@@ -17,18 +17,9 @@ body {
 
 
 
-nav{
+nav, .side-nav{
 	font-family:'Orbitron';
 }
-
-
-
-
-
-/* .localisation{
-	top: 40px;
-
-} */
 
 #programme, .card-title{
 	color: #ff6e40;
