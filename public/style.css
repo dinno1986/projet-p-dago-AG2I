@@ -99,6 +99,13 @@ p {
 
 }
 
+
+.amp{
+	width: 50%;
+	margin-left: 30%;
+
+}
+
 .fa{
 	color: #ff6e40;
 }
@@ -111,3 +118,4 @@ p {
 .list-footer li{
 	display:inline;
 }
+
