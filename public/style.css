@@ -39,10 +39,7 @@ nav{
 }
 
 
-#prog{
-	display: block;
-	margin: auto;
-}
+
 
 
 /* .localisation{
@@ -51,8 +48,9 @@ nav{
 } */
 
 #programme, .card-title{
-	color: #ffd54f;
+	color: #ff6e40;
 }
+
 
 #programme{
 	background-image:url("william5893.jpg")
@@ -61,6 +59,11 @@ nav{
 h3{	
 	font-family:'Orbitron';
 	color: #0d47a1;
+}
+
+h4{
+	font-family: 'Orbitron';
+	color :#ff6e40;
 }
 
 
