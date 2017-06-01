@@ -6,43 +6,23 @@ body {
 	
 }
 
-footer img{
-	
-	position: relative; ;
-	float: right;
-	bottom: 2.25em;
-	margin: 0.5em;
-	size: 4em;
-	width: 2.5em;
-	right: 1em;
-
-}
-
 .page-footer{
-	height: 50px;
-	overflow: hidden;
+	height: 6em;
+	overflow:hidden;
 }
 
 .bordure {
 	margin: auto;
 }
 
-.paragraphe{
-	border-radius: 4em 4em 4em 4em;
-	/*text-align: center; */
 
-
-}
 
 nav{
 	font-family:'Orbitron';
 }
 
 
-#prog{
-	display: block;
-	margin: auto;
-}
+
 
 
 /* .localisation{
@@ -51,8 +31,9 @@ nav{
 } */
 
 #programme, .card-title{
-	color: #ffd54f;
+	color: #ff6e40;
 }
+
 
 #programme{
 	background-image:url("william5893.jpg")
@@ -61,6 +42,17 @@ nav{
 h3{	
 	font-family:'Orbitron';
 	color: #0d47a1;
+	font-size: 3em;
+}
+
+h4{
+	font-family:'Orbitron';
+	color:#2196f3;
+}
+
+h4{
+	font-family: 'Orbitron';
+	color :#ff6e40;
 }
 
 
@@ -107,8 +99,23 @@ p {
 
 }
 
+
 .amp{
 	width: 50%;
 	margin-left: 30%;
 
 }
+
+.fa{
+	color: #ff6e40;
+}
+
+
+.list-footer li a{
+	color: #ff6e40;
+}
+
+.list-footer li{
+	display:inline;
+}
+
