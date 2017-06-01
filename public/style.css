@@ -2,7 +2,7 @@
 body { 
 	padding-top: 0px;
 	border-radius: 50px;
-	font-family: 'Slabo 27px';
+	font-family: 'Monda'; 
 	
 }
 
@@ -57,7 +57,10 @@ nav{
 
 #programme{
 	background-image:url("william5893.jpg")
+}
 
+h3{	
+	font-family:'Orbitron';
 }
 
 
@@ -95,11 +98,3 @@ p {
 	line-height:30px;
 }
 
-li{
-	margin-left: 60px;
-	line-height:30px;
-}
-
-h3 {
-	font-family: fantasy;
-}
