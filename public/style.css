@@ -5,6 +5,7 @@ body {
 	
 }
 
+
 .page-footer{
 	height: 5em;
 	overflow:hidden;
@@ -34,15 +35,9 @@ h3{
 
 h4{
 	font-family:'Orbitron';
-	color:#2196f3;
+	color :#ff6e40;	
 	font-size: 2em;
 }
-
-h4{
-	font-family: 'Orbitron';
-	color :#ff6e40;
-}
-
 
 #carre {
     height: 300px;
@@ -54,8 +49,7 @@ h4{
 
 #ern {
 	margin-bottom: 5%;
-	margin-left: 10%;
-}
+	margin-left: }
 
 #ademe {
 	margin-right: 5%;
@@ -93,6 +87,11 @@ p {
 
 }
 
+footer{
+	background-color: #000;
+	overflow: hidden;
+}
+
 
 .list-footer li a{
 	color: #ff6e40;
@@ -124,3 +123,6 @@ p {
 	margin-top: 20%;
 }
 
+#menu li a{
+	color: #00796b;
+}
