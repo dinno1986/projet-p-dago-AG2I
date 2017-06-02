@@ -1,7 +1,6 @@
 
 body { 
 	padding-top: 0px;
-	border-radius: 50px;
 	font-family: 'Monda'; 
 	
 }
@@ -30,7 +29,7 @@ nav, .side-nav{
 h3{	
 	font-family:'Orbitron';
 	color: #0d47a1;
-	font-size: 3em;
+	font-size: 2em;
 }
 
 h4{
@@ -74,10 +73,10 @@ h4{
 	margin-right: 5%;
 }
 
-/*p {
+p {
 	margin-left: 50px;
 	line-height:30px;
-} */
+} 
 
 .listes {
 	margin-left: 50px;
@@ -102,20 +101,3 @@ h4{
 	display:inline;
 }
 
-.text{
-	margin-top: 17%;
-}
-
-.ordi{
-	width: 100%;
-	margin-top: 20%;
-}
-
-.historique{
-	text-align: center;
-}
-
-.ag2i{
-	margin-left: 30%;
-	margin-top: 20%;
-}
