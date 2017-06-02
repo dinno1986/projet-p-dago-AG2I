@@ -103,9 +103,8 @@ h4{
 
 .list-footer li{
 	display:inline;
-	
-
-	
+	float: right;
+		
 }
 
 .text{
@@ -125,3 +124,6 @@ h4{
 	margin-left: 30%;
 	margin-top: 20%;
 }
+
+
+
