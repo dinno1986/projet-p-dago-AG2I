@@ -123,4 +123,10 @@ p {
 	margin-left: 30%;
 	margin-top: 20%;
 }
-
+hr {
+	height: 1px;
+	color: #00796b;
+	background-color: #00796b;
+	width: 25%;
+	border: none;
+}
