@@ -12,6 +12,12 @@ $('.parallax').parallax();
 
 $('#fullpage').fullpage({
 	menu:"#menu",
+
 	anchors:['AG2I', 'ORDI3', 'ECOTEMPO', 'LOGO'],
 	
+
+	fixedElements: '.page-footer',
+	paddingTop: '3em',
+	paddingBottom: '10px',
+
 });
