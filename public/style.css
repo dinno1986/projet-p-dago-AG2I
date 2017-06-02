@@ -15,8 +15,6 @@ body {
 	margin: auto;
 }
 
-
-
 nav, .side-nav{
 	font-family:'Orbitron';
 }
@@ -24,7 +22,6 @@ nav, .side-nav{
 #programme, .card-title{
 	color: #ff6e40;
 }
-
 
 #programme{
 	background-image:url("william5893.jpg")
@@ -39,6 +36,7 @@ h3{
 h4{
 	font-family:'Orbitron';
 	color:#2196f3;
+	font-size: 2em;
 }
 
 h4{
@@ -76,25 +74,19 @@ h4{
 	margin-right: 5%;
 }
 
-p {
+/*p {
 	margin-left: 50px;
 	line-height:30px;
-}
-
-
-
+} */
 
 .listes {
 	margin-left: 50px;
 	line-height:30px;
-
 }
-
 
 .amp{
 	width: 50%;
 	margin-left: 30%;
-
 }
 
 .fa{
