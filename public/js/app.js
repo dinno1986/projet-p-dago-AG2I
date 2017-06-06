@@ -10,14 +10,14 @@ $('.parallax').parallax();
   ];
   Materialize.scrollFire(options);
 
-$('#fullpage').fullpage({
-	menu:"#menu",
+//$('#fullpage').fullpage({
+//	menu:"#menu",
 
-	anchors:['AG2I', 'ORDI3', 'ECOTEMPO', 'LOGO'],
+//	anchors:['AG2I', 'ORDI3', 'ECOTEMPO', 'LOGO'],
 	
+//
+//	fixedElements: '.page-footer',
+//	paddingTop: '3em',
+//	paddingBottom: '10px',
 
-	fixedElements: '.page-footer',
-	paddingTop: '3em',
-	paddingBottom: '10px',
-
-});
+//});

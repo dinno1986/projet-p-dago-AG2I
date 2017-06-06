@@ -73,7 +73,7 @@ p {
 } 
 
 .listes {
-	margin-left: 50px;
+	/*argin-left: 50px;*/
 	line-height:30px;
 }
 
@@ -134,4 +134,12 @@ hr {
 
 #menu li a{
 	color: #00796b;
+}
+
+#section{
+	margin-top: 3em;
+}
+
+.ag2i{
+	margin-top: 30px;
 }
