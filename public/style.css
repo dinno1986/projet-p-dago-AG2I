@@ -7,7 +7,7 @@ body {
 
 
 .page-footer{
-	height: 5em;
+	height: 4em;
 	overflow:hidden;
 }
 
@@ -102,6 +102,8 @@ footer{
 .list-footer li{
 	display:inline;
 	float: right;
+	margin-top:  -20px;
+	margin-right: 34px;
 		
 }
 
@@ -135,3 +137,9 @@ hr {
 #menu li a{
 	color: #00796b;
 }
+
+.parallax-container {
+      height: 600px;
+    }
+
+
