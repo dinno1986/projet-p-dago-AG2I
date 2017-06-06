@@ -71,13 +71,14 @@ h4{
 }
 
 p {
-	margin-left: 50px;
+	
 	line-height:30px;
 } 
 
 .listes {
 	/*argin-left: 50px;*/
 	line-height:30px;
+	margin-left: 40px;
 }
 
 .amp{
