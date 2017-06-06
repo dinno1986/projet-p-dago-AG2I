@@ -1,11 +1,19 @@
 body { 
+<<<<<<< HEAD
 	padding-top: 0px;
 	font-family: 'Monda'; 
+	margin: 0;
+	width: 100%;
+	height: auto;
+}
+
+iframe {
+	width: 100%;
 }
 
 .page-footer{
-	height: 4em;
 	overflow:hidden;
+	width: 100%;
 }
 
 .bordure {
@@ -86,6 +94,7 @@ p {
 footer{
 	background-color: #000;
 	overflow: hidden;
+	width: 100%;
 }
 
 
@@ -139,6 +148,7 @@ hr {
 .ag2i{
 	margin-top: 30px;
 }
+
 .parallax-container {
       height: 600px;
 }
