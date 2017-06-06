@@ -1,5 +1,4 @@
 body { 
-
 	padding-top: 0px;
 	font-family: 'Monda'; 
 	margin: 0;
@@ -15,6 +14,7 @@ iframe {
 	overflow:hidden;
 	height: 3em;
 	width: 100%;
+	height:3em;
 }
 
 .bordure {
@@ -74,13 +74,14 @@ h4{
 }
 
 p {
-	margin-left: 50px;
+	
 	line-height:30px;
 } 
 
 .listes {
 	/*margin-left: 50px;*/
 	line-height:30px;
+	margin-left: 40px;
 }
 
 .amp{
