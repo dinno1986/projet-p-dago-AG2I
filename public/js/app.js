@@ -11,9 +11,13 @@ $('.parallax').parallax();
   Materialize.scrollFire(options);
 
 $('#fullpage').fullpage({
-	anchors:['AG2I', 'ORDI3', 'ECOTEMPO', 'LOGO'],
 	menu:"#menu",
+
+	anchors:['AG2I', 'ORDI3', 'ECOTEMPO', 'LOGO'],
+	
+
 	fixedElements: '.page-footer',
 	paddingTop: '3em',
 	paddingBottom: '10px',
+
 });
