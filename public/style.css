@@ -1,5 +1,7 @@
 body { 
-	font-family: 'Monda';
+
+	padding-top: 0px;
+	font-family: 'Monda'; 
 	margin: 0;
 	width: 100%;
 	height: auto;
@@ -39,7 +41,7 @@ h3{
 
 h4{
 	font-family:'Orbitron';
-	color :#ff6e40;	
+	color :#ff6e40;  
 	font-size: 2em;
 }
 
@@ -77,7 +79,7 @@ p {
 } 
 
 .listes {
-	/*argin-left: 50px;*/
+	/*margin-left: 50px;*/
 	line-height:30px;
 }
 
@@ -88,7 +90,6 @@ p {
 
 .fa{
 	color: #ff6e40;
-
 }
 
 footer{
@@ -100,16 +101,14 @@ footer{
 
 .list-footer li a{
 	color: #ff6e40;
-	
-	
 }
 
 .list-footer li{
 	display:inline;
 	float: right;
-	margin-top:  -30px;
-	margin-right: 1em;
-		
+
+	margin-top:  -20px;
+	margin-right: 2em;
 }
 
 .text{
@@ -154,7 +153,7 @@ hr {
 
 .parallax-container {
       height: 600px;
-    }
+}
 
 
 
