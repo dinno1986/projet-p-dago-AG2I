@@ -1,9 +1,15 @@
 body { 
 	padding-top: 0px;
-	font-family: 'Monda'; 
+	font-family: 'Exo 2','Ropa Sans', 'Monda'; 
 	margin: 0;
 	width: 100%;
 	height: auto;
+}
+
+#accroche{
+	font-family: 'Orbitron';
+	color : #ff6e40;
+	font-size: 2em;
 }
 
 iframe {
